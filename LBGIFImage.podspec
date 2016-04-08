@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'LBGIFImage'
-  s.version = '0.1'
+  s.version = '0.2'
   s.summary = 'This is a small category that creates an animated UIImage out of a gif image.'
   s.homepage = 'https://github.com//LBGIFImage'
   s.license = {
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author = 'Laurin Brandner', 'larcus94@gmail.com'
   s.source = {
     :git => 'https://github.com/lbrndnr/LBGIFImage.git',
-    :commit => 'HEAD'
+    :tag => '0.2'
   }
   s.platform = :ios, '4.0'
   s.source_files = 'LBGIFImage/'
